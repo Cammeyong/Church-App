@@ -1,0 +1,47 @@
+#content {
+  background-color: aliceblue;
+  width: 100vw;
+  height: auto;
+}
+.input{
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+img{
+  max-height: 150px;
+  margin-left: 20%;
+}
+.login{
+  width: 100%;
+  padding:5% 10% 0 10%;
+  background-color: aliceblue;
+  height: auto;
+}
+.login p {
+  font-size: 12px;
+}
+.social {
+  color: grey;
+  margin-left: 8%;
+  font-size: 1.5em;
+}
+.submit{
+  background-color: rgba(132, 247, 132, 0.5);
+  margin-left: 30%;
+}
+.submit2{
+  background-color: rgba(132, 247, 132, 0.5);
+}
+.media {
+  display: flex;
+   background-color: aliceblue;
+   width: 90%;
+   justify-content: space-evenly;
+   margin-left: 5%;
+}
+.media ion-item {
+  background-color: aliceblue;
+  border-radius: 50%;
+
+}

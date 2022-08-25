@@ -1,20 +1,61 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="menu-head" >
+
+      <ion-menu-button slot="start" color="success"></ion-menu-button>
+
     <ion-title>
-      Blank
+      Church App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+<ion-content [fullscreen]="true">
+    <div id="container">
+      <h1>Welcome
+        <h6>For We Are</h6>
+        <h6>Guided By The Lord</h6>
+      </h1>
+    </div>
+
+
+    <div class="quote">
+      <h3>
+        Quote For Today
+      </h3>
+      <img src="http://img.picturequotes.com/2/549/548809/biblical-quote-1.jpg" alt="">
+    </div>
+
+    <div class="sermon">
+      <h3>Listening Sermon For Today</h3>
+      <div>
+        <iframe width="250" height="150" src="https://www.youtube.com/embed/6sjvCx2o76M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <div class="location-help">
+
+      <h3>Where We Are & How To Help</h3>
+      <div class="row">
+        <div class="col">
+          <div>
+            <img src="https://www.worldatlas.com/upload/fc/b9/38/jamaica-parishes-map.png" alt="">
+            <h2>Locations</h2>
+            <p>Join Us</p>
+          </div>
+
+        </div>
+        <div class="col col2">
+          <div>
+            <img src="https://sites.create-cdn.net/siteimages/34/2/4/342404/17/7/9/17798499/2000x1334.jpg?1572960174" alt="">
+            <h2>Volunteer</h2>
+            <p>Help Those In Need</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
 </ion-content>
